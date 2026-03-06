@@ -42,9 +42,9 @@ setup_kernelsu() {
     # Clone the repository and rename it to KernelSU
     if [ ! -d "$GKI_ROOT/KernelSU" ]; then
         # ---CHANGES HERE  ---
-        #  URL changed to Kingfinik98 Fork to carry over patch manager
-        git clone https://github.com/Kingfinik98/ReSukiSU KernelSU
-        echo "[+] Repository cloned from Kingfinik98 Fork."
+        #  URL changed to TegarXLu Fork to carry over patch manager
+        git clone https://github.com/TegarXLu/ReSukiSU KernelSU
+        echo "[+] Repository cloned from TegarXLu Fork."
     fi
     cd "$GKI_ROOT/KernelSU"
     git stash && echo "[-] Stashed current changes."
