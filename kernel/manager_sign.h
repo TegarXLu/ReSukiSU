@@ -56,14 +56,14 @@
 #define EXPECTED_HASH_pershoot                                                     \
     "f26471a28031130362bce7eebffb9a0b8afc3095f163ce0c75a309f03b644a1f"
     
-// VorteXSU/VorteXSU
-#define EXPECTED_SIZE_VORTEXSU 0x381
-#define EXPECTED_HASH_VORTEXSU                                                    \
+// TegarXLu/TegarXLu
+#define EXPECTED_SIZE_TEGARXLU 0x381
+#define EXPECTED_HASH_TEGARXLU                                                    \
     "67eec44718428adad14e6a9dca57822759aba7e77a8cad7071f6f6704df8bb48"
 
-//  kingfinik98/kernelSU (VorteXSU)
-#define EXPECTED_SIZE_VORTEX 0x385
-#define EXPECTED_HASH_VORTEX                                                    \
+//  TegarXLu/kernelSU (TegarXLu)
+#define EXPECTED_SIZE_TEGARXLU 0x385
+#define EXPECTED_HASH_TEGARXLU                                                    \
     "2b8a1087ec94d19ed3c0aa468fb6dcc3e0af5ea0d683bd64da20051847184e8e"
 
 // Dynamic Sign
@@ -77,3 +77,4 @@ typedef struct {
 } apk_sign_key_t;
 
 #endif /* MANAGER_SIGN_H */
+
