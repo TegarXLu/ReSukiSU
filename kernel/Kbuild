@@ -60,7 +60,7 @@ $(error You should use $(REPO_NAME) as an git submodule instead of directly copy
 endif
 
 define get_ksu_version_full
-v$1-$(shell cd $(KSU_SRC); $(GIT_BIN) rev-parse --short=8 HEAD)@VorteX
+v$1-$(shell cd $(KSU_SRC); $(GIT_BIN) rev-parse --short=8 HEAD)@TegarXLu
 endef
 
 $(shell cd $(KSU_SRC); [ -f ../.git/shallow ] && $(GIT_BIN) fetch --unshallow)
@@ -75,7 +75,7 @@ ccflags-y += -DKSU_VERSION=$(KSU_VERSION)
 ccflags-y += -DKSU_VERSION_FULL=\"$(KSU_VERSION_FULL)\"
 
 ifeq ($(CONFIG_KSU_MULTI_MANAGER_SUPPORT), y)
-$(info -- Supported Unofficial Manager: ReSukiSU, VorteXSU, SukiSU-Ultra, RKSU, MAMBO, NEXT, WILD )
+$(info -- Supported Unofficial Manager: ReSukiSU, TegarXLu, SukiSU-Ultra, RKSU, MAMBO, NEXT, WILD )
 endif
 
 ifeq ($(CONFIG_KSU_MANUAL_HOOK), y)
